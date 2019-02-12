@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[launch test is pass because my actualurl:http://srssprojects.in/home.aspxis matching with my expurl:-http://srssprojects.in/home.aspx]]>
+    </line>
+    <line>
+      <![CDATA[login is fail because my actualtittle:KEXIM BANKis not matching with loginexptittle]]>
+    </line>
+    <line>
+      <![CDATA[Submition is fail because my actualalert:CDwindow-9B8CE6C97D4ADD78D82848E7C7A540A2is not matching with expalert]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="55849" started-at="2019-02-12T07:49:46Z" finished-at="2019-02-12T07:50:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="55849" started-at="2019-02-12T07:49:46Z" finished-at="2019-02-12T07:50:42Z">
+      <class name="com.pagelibrary.com.ranford.Testexcution">
+        <test-method status="PASS" signature="verify_launch()[pri:0, instance:com.pagelibrary.com.ranford.Testexcution@2b98378d]" name="verify_launch" duration-ms="27021" started-at="2019-02-12T07:49:46Z" finished-at="2019-02-12T07:50:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[launch test is pass because my actualurl:http://srssprojects.in/home.aspxis matching with my expurl:-http://srssprojects.in/home.aspx]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_launch -->
+        <test-method status="PASS" signature="verify_login()[pri:1, instance:com.pagelibrary.com.ranford.Testexcution@2b98378d]" name="verify_login" duration-ms="21823" started-at="2019-02-12T07:50:13Z" finished-at="2019-02-12T07:50:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login is fail because my actualtittle:KEXIM BANKis not matching with loginexptittle]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_login -->
+        <test-method status="PASS" signature="verify_admin_page()[pri:2, instance:com.pagelibrary.com.ranford.Testexcution@2b98378d]" name="verify_admin_page" duration-ms="2551" started-at="2019-02-12T07:50:35Z" finished-at="2019-02-12T07:50:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_admin_page -->
+        <test-method status="PASS" signature="verify_newbranch()[pri:3, instance:com.pagelibrary.com.ranford.Testexcution@2b98378d]" name="verify_newbranch" duration-ms="932" started-at="2019-02-12T07:50:38Z" finished-at="2019-02-12T07:50:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_newbranch -->
+        <test-method status="PASS" signature="verify_newbranch_creation()[pri:4, instance:com.pagelibrary.com.ranford.Testexcution@2b98378d]" name="verify_newbranch_creation" duration-ms="2435" started-at="2019-02-12T07:50:39Z" finished-at="2019-02-12T07:50:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_newbranch_creation -->
+        <test-method status="PASS" signature="verify_Submit()[pri:5, instance:com.pagelibrary.com.ranford.Testexcution@2b98378d]" name="verify_Submit" duration-ms="1009" started-at="2019-02-12T07:50:41Z" finished-at="2019-02-12T07:50:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Submition is fail because my actualalert:CDwindow-9B8CE6C97D4ADD78D82848E7C7A540A2is not matching with expalert]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_Submit -->
+      </class> <!-- com.pagelibrary.com.ranford.Testexcution -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
